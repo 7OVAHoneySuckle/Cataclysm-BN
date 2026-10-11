@@ -391,8 +391,8 @@ auto debug_menu::wish_mutation_type_label( const std::string &type ) -> std::str
 }
 
 auto debug_menu::wish_mutation_pages( const wish_mutation_group_list &groups,
-    const std::vector<mutation_category_id> &categories,
-    const std::vector<std::string> &types ) -> wish_mutation_page_list
+                                      const std::vector<mutation_category_id> &categories,
+                                      const std::vector<std::string> &types ) -> wish_mutation_page_list
 {
     // The first page holds every mutation, the second one the mutations that have
     // no page of their own, then follow one page per mutation type, the NPC page,
